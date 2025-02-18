@@ -1,0 +1,12 @@
+directories:
+  src
+  include
+  tests
+
+targets:
+  //src/main:bazel_cpp_app_template
+  //src/lib:utils
+  //src/modules/sample_module
+  //tests:all
+  //benchmarks:benchmark_app
+  //:generate_docs
