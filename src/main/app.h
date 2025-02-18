@@ -9,7 +9,7 @@ public:
   void handle_exit();
 
   bool get_is_running();
-  bool set_should_exit();
+  void set_should_exit();
 
 private:
   bool m_is_running;

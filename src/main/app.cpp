@@ -4,6 +4,10 @@ App::App(bool debug_mode) : m_debug_mode(debug_mode) { m_is_running = false; }
 
 App::~App() { std::cout << "Exiting App."; }
 
+bool App::get_is_running() { return m_is_running; }
+
+void App::set_should_exit() { m_should_exit = true; }
+
 void App::run() {
   m_is_running = true;
   m_should_exit = false;
