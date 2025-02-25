@@ -8,5 +8,4 @@ targets:
   //src/lib:utils
   //src/modules/sample_module
   //tests:all
-  //benchmarks:benchmark_app
   //:generate_docs
